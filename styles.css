@@ -99,3 +99,135 @@ a.contact-item:hover{background:rgba(255,255,255,.22)}
 .footer{border-top:1px solid var(--border);background:rgba(255,255,255,.5);padding:40px 0;text-align:center}
 .footer-tagline{font-family:'Outfit';font-size:18px;font-weight:700;color:var(--brand)}
 .footer-copy{margin-top:8px;font-size:14px;color:var(--muted)}
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #f5f5f5;
+  color: #1d1d1d;
+}
+
+.hero {
+  padding: 70px 20px;
+  background: white;
+}
+
+.hero-title {
+  font-size: 4rem;
+  font-weight: 800;
+  line-height: 1.1;
+  color: #0b2a66;
+}
+
+.yellow {
+  color: #f3b300;
+}
+
+.hero-sub {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+.program-card {
+  background: white;
+  border-radius: 25px;
+  padding: 30px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+  height: 100%;
+  transition: 0.3s;
+}
+
+.program-card:hover {
+  transform: translateY(-5px);
+}
+
+.section-title {
+  font-size: 2.3rem;
+  font-weight: 700;
+  color: #0b2a66;
+  margin-bottom: 40px;
+}
+
+.price-box {
+  background: #fff9e6;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.btn-main {
+  background: #f3b300;
+  color: #111;
+  padding: 14px 30px;
+  border-radius: 40px;
+  font-weight: 700;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.feature-box {
+  background: white;
+  border-radius: 20px;
+  padding: 25px;
+  height: 100%;
+  text-align: center;
+}
+
+footer {
+  background: #0b2a66;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.language-switch {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 999;
+}
+
+.language-switch button {
+  border: none;
+  padding: 8px 14px;
+  border-radius: 30px;
+  margin-left: 5px;
+  background: #f3b300;
+  font-weight: 700;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+.booking-wrapper {
+  background: white;
+  padding: 40px;
+  border-radius: 25px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+.booking-form {
+  background: #f9f9f9;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.table td,
+.table th {
+  padding: 15px;
+  vertical-align: middle;
+}
+
+.form-control,
+.form-select {
+  padding: 12px;
+  border-radius: 12px;
+}
+
+@media(max-width: 768px) {
+  .booking-wrapper {
+    padding: 20px;
+  }
+}
+
