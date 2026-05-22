@@ -483,6 +483,383 @@
   </div>
 
 </section>
+<!-- ========================================= -->
+<!-- ADD THIS SECTION ABOVE CONTACT SECTION -->
+<!-- ========================================= -->
+
+<section class="container py-5" id="booking">
+
+  <div class="booking-wrapper">
+
+    <h2 class="section-title text-center"
+      data-en="Book a Trial Class"
+      data-th="จองคลาสทดลองเรียน">
+      Book a Trial Class
+    </h2>
+
+    <p class="text-center mb-5"
+      data-en="Choose your preferred schedule and reserve your seat today."
+      data-th="เลือกเวลาที่ต้องการและจองคลาสเรียนได้เลย">
+      Choose your preferred schedule and reserve your seat today.
+    </p>
+
+    <!-- TIMETABLE -->
+    <div class="table-responsive">
+
+      <table class="table table-bordered text-center align-middle">
+
+        <thead class="table-dark">
+
+          <tr>
+
+            <th
+              data-en="Time"
+              data-th="เวลา">
+              Time
+            </th>
+
+            <th
+              data-en="Monday"
+              data-th="จันทร์">
+              Monday
+            </th>
+
+            <th
+              data-en="Tuesday"
+              data-th="อังคาร">
+              Tuesday
+            </th>
+
+            <th
+              data-en="Wednesday"
+              data-th="พุธ">
+              Wednesday
+            </th>
+
+            <th
+              data-en="Thursday"
+              data-th="พฤหัสบดี">
+              Thursday
+            </th>
+
+            <th
+              data-en="Friday"
+              data-th="ศุกร์">
+              Friday
+            </th>
+
+            <th
+              data-en="Saturday"
+              data-th="เสาร์">
+              Saturday
+            </th>
+
+          </tr>
+
+        </thead>
+
+        <tbody>
+
+          <tr>
+
+            <td>09:00 - 10:00</td>
+
+            <td data-en="Kids Class" data-th="คลาสเด็ก">Kids Class</td>
+            <td data-en="Private" data-th="เรียนส่วนตัว">Private</td>
+            <td data-en="Kids Class" data-th="คลาสเด็ก">Kids Class</td>
+            <td data-en="Private" data-th="เรียนส่วนตัว">Private</td>
+            <td data-en="Kids Class" data-th="คลาสเด็ก">Kids Class</td>
+            <td data-en="Weekend Kids" data-th="เด็กวันเสาร์">Weekend Kids</td>
+
+          </tr>
+
+          <tr>
+
+            <td>13:00 - 14:00</td>
+
+            <td data-en="Teen Group" data-th="กลุ่มวัยรุ่น">Teen Group</td>
+            <td data-en="Adult English" data-th="ภาษาอังกฤษผู้ใหญ่">Adult English</td>
+            <td data-en="Teen Group" data-th="กลุ่มวัยรุ่น">Teen Group</td>
+            <td data-en="Adult English" data-th="ภาษาอังกฤษผู้ใหญ่">Adult English</td>
+            <td data-en="Teen Group" data-th="กลุ่มวัยรุ่น">Teen Group</td>
+            <td data-en="Conversation Club" data-th="คลับสนทนา">Conversation Club</td>
+
+          </tr>
+
+          <tr>
+
+            <td>18:00 - 19:00</td>
+
+            <td data-en="Business English" data-th="ภาษาอังกฤษธุรกิจ">Business English</td>
+            <td data-en="Private 1-on-1" data-th="เรียนตัวต่อตัว">Private 1-on-1</td>
+            <td data-en="Business English" data-th="ภาษาอังกฤษธุรกิจ">Business English</td>
+            <td data-en="Private 1-on-1" data-th="เรียนตัวต่อตัว">Private 1-on-1</td>
+            <td data-en="Business English" data-th="ภาษาอังกฤษธุรกิจ">Business English</td>
+            <td data-en="IELTS Preparation" data-th="เตรียมสอบ IELTS">IELTS Preparation</td>
+
+          </tr>
+
+        </tbody>
+
+      </table>
+
+    </div>
+
+    <!-- BOOKING FORM -->
+    <div class="booking-form mt-5">
+
+      <form id="bookingForm">
+
+        <div class="row g-4">
+
+          <!-- NAME -->
+          <div class="col-md-6">
+
+            <label class="form-label"
+              data-en="Full Name"
+              data-th="ชื่อ-นามสกุล">
+              Full Name
+            </label>
+
+            <input
+              type="text"
+              class="form-control"
+              id="name"
+              required>
+
+          </div>
+
+          <!-- PHONE -->
+          <div class="col-md-6">
+
+            <label class="form-label"
+              data-en="Phone Number"
+              data-th="เบอร์โทรศัพท์">
+              Phone Number
+            </label>
+
+            <input
+              type="tel"
+              class="form-control"
+              id="phone"
+              required>
+
+          </div>
+
+          <!-- EMAIL -->
+          <div class="col-md-6">
+
+            <label class="form-label"
+              data-en="Email"
+              data-th="อีเมล">
+              Email
+            </label>
+
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              required>
+
+          </div>
+
+          <!-- PROGRAM -->
+          <div class="col-md-6">
+
+            <label class="form-label"
+              data-en="Select Program"
+              data-th="เลือกหลักสูตร">
+              Select Program
+            </label>
+
+            <select class="form-select" id="program" required>
+
+              <option value="">
+                Select Program
+              </option>
+
+              <option>Kids English</option>
+              <option>Teen English</option>
+              <option>Adult English</option>
+              <option>Private 1-on-1</option>
+
+            </select>
+
+          </div>
+
+          <!-- DATE -->
+          <div class="col-md-6">
+
+            <label class="form-label"
+              data-en="Preferred Date"
+              data-th="วันที่ต้องการ">
+              Preferred Date
+            </label>
+
+            <input
+              type="date"
+              class="form-control"
+              id="date"
+              required>
+
+          </div>
+
+          <!-- TIME -->
+          <div class="col-md-6">
+
+            <label class="form-label"
+              data-en="Preferred Time"
+              data-th="เวลาที่ต้องการ">
+              Preferred Time
+            </label>
+
+            <select class="form-select" id="time" required>
+
+              <option value="">Select Time</option>
+
+              <option>09:00 - 10:00</option>
+              <option>13:00 - 14:00</option>
+              <option>18:00 - 19:00</option>
+
+            </select>
+
+          </div>
+
+          <!-- MESSAGE -->
+          <div class="col-12">
+
+            <label class="form-label"
+              data-en="Message"
+              data-th="ข้อความเพิ่มเติม">
+              Message
+            </label>
+
+            <textarea
+              class="form-control"
+              id="message"
+              rows="4"></textarea>
+
+          </div>
+
+          <!-- SUBMIT -->
+          <div class="col-12 text-center">
+
+            <button type="submit" class="btn-main">
+
+              <span
+                data-en="Book Now"
+                data-th="จองเลย">
+                Book Now
+              </span>
+
+            </button>
+
+          </div>
+
+        </div>
+
+      </form>
+
+      <!-- SUCCESS MESSAGE -->
+      <div id="successMessage"
+        class="alert alert-success mt-4 d-none">
+
+        Booking submitted successfully!
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- ========================================= -->
+<!-- ADD THIS CSS INSIDE <style> -->
+<!-- ========================================= -->
+
+.booking-wrapper{
+  background:white;
+  padding:40px;
+  border-radius:25px;
+  box-shadow:0 5px 20px rgba(0,0,0,0.08);
+}
+
+.booking-form{
+  background:#f9f9f9;
+  padding:30px;
+  border-radius:20px;
+}
+
+.table td,
+.table th{
+  padding:15px;
+  vertical-align:middle;
+}
+
+.form-control,
+.form-select{
+  padding:12px;
+  border-radius:12px;
+}
+
+@media(max-width:768px){
+
+  .booking-wrapper{
+    padding:20px;
+  }
+
+}
+
+<!-- ========================================= -->
+<!-- ADD THIS SCRIPT ABOVE </body> -->
+<!-- ========================================= -->
+
+<script>
+
+document
+.getElementById("bookingForm")
+.addEventListener("submit", function(e){
+
+  e.preventDefault();
+
+  // GET FORM VALUES
+  const name = document.getElementById("name").value;
+  const phone = document.getElementById("phone").value;
+  const email = document.getElementById("email").value;
+  const program = document.getElementById("program").value;
+  const date = document.getElementById("date").value;
+  const time = document.getElementById("time").value;
+  const message = document.getElementById("message").value;
+
+  // SUCCESS MESSAGE
+  document
+    .getElementById("successMessage")
+    .classList.remove("d-none");
+
+  // SEND TO LINE
+  const lineMessage =
+`New Booking
+Name: ${name}
+Phone: ${phone}
+Email: ${email}
+Program: ${program}
+Date: ${date}
+Time: ${time}
+Message: ${message}`;
+
+  console.log(lineMessage);
+
+  // OPTIONAL:
+  // SEND TO GOOGLE SHEETS / EMAIL API HERE
+
+  // RESET FORM
+  document.getElementById("bookingForm").reset();
+
+});
+
+</script>
+
 
 <!-- CONTACT -->
 <section id="contact" class="container py-5 text-center">
